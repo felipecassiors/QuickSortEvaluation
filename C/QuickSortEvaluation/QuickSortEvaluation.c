@@ -7,7 +7,7 @@ int partition(int[], int, int);
 int main(){
     clock_t startTime = clock();
     FILE *file;
-    file = fopen("array.txt", "r");
+    file = fopen("../../array.txt", "r");
     int array[N];
     int i;
     for (i = 0; i < N; i++){
