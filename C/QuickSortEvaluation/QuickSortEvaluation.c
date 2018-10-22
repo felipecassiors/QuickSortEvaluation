@@ -1,6 +1,5 @@
 #include <time.h>
 #include <stdio.h>
-#include <stdlib.h>
 #define N 500000
 void quickSort(int[], int, int);
 int partition(int[], int, int);
