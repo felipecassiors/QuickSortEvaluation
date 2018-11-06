@@ -1,10 +1,9 @@
 package quicksortevaluation;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 public class QuickSortEvaluation {
     public static final int N = 500000;
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws Exception {
         long startTime = System.currentTimeMillis();
         File file = new File("../../array.txt");
         Scanner scanner = new Scanner(file);
